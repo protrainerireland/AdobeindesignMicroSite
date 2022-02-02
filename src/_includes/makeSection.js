@@ -167,6 +167,34 @@ module.exports = {
                         <img src="${ section.background }" class="bottom-img" alt="">
                     </section>`;
                 break;
+
+                case "welcome":
+                    html = `<section id="${section.id}" class="section">
+                        <div class="container">
+                        <h3 class="title text-center">${ section.title }</h3>
+                        <div class="row ${section.imagePosition=="left" ? "flex-row-reverse" :""}">
+                            <div class="${section.image ? 'col-md-6' : 'col-md-12'} about"
+                            data-aos="fade-left" ${ animationDelay } ${animationOffset}
+                            data-aos-anchor="#${section.id}"
+                            >
+                            <p class="about-title">${ section.content.title }</p>
+                            <p>${ section.content.text }</p>
+                            </div>`;
+                        if (section.image) {
+                            html += `<div class="col-md-6"
+                                    data-aos="fade-right" ${ animationDelay }  ${animationOffset}
+                                    data-aos-anchor="#${section.id}"
+                            >
+                                        <img src="${ section.image }" class="img-fluid" alt="">
+                                    </div>`;
+                        }    
+    
+                    html += `</div>
+                        </div>
+                    </section>`;
+                    break;
+
+
             case "grid":
                 html = `<section id="${section.id}" class="section">
                             <div class="container text-center">
@@ -208,7 +236,7 @@ module.exports = {
                         data-aos-anchor="#${section.id}"
                         >
                         <p class="about-title">${ section.content.title }</p>
-                        <p>${ defaultTemplate }</p>
+                        <p>${ section.content.text }</p>
                         </div>`;
                     if (section.image) {
                         html += `<div class="col-md-6" 
@@ -322,6 +350,33 @@ module.exports = {
                             </div>
                         </section>`;
                 break;
+
+                case "summary":
+
+                    html = `<section id="${section.id}" class="section">
+                        <div class="container">
+                        <h3 class="title text-center">${ section.title }</h3>
+                        <div class="row ${section.imagePosition=="left" ? "flex-row-reverse" :""}">
+                            <div class="${section.image ? 'col-md-6' : 'col-md-12'} about"
+                            data-aos="fade-left" ${ animationDelay } ${animationOffset}
+                            data-aos-anchor="#${section.id}"
+                            >
+                            <p class="about-title">${ section.content.title }</p>
+                            <p>${ section.content.text }</p>
+                            </div>`;
+                        if (section.image) {
+                            html += `<div class="col-md-6"
+                                    data-aos="fade-right" ${ animationDelay }  ${animationOffset}
+                                    data-aos-anchor="#${section.id}"
+                            >
+                                        <img src="${ section.image }" class="img-fluid" alt="">
+                                    </div>`;
+                        }    
+        
+                    html += `</div>
+                        </div>
+                    </section>`;
+                    break;
 
             case 'pricing':
 

@@ -10,112 +10,36 @@
             "id": "banner", 
             "link": "no", 
             "type": "banner", 
-            "title": "JavaScript Training Courses Ireland", 
-            "subtitle": "Contact Us for all your JavaScript training requirements", 
+            "title": "Adobe InDesign Training Courses Ireland", 
+            "subtitle": "Contact us for all your Adobe InDesign training requirements", 
             "background": "img/ground@-min.png",
             "image": "svg/onlineclass.svg"
-        }, 
-        {
-            "id": "services", 
-            "link": "/#services", 
-            "text": "Services", 
-            "title": "Services", 
-            "type": "grid", 
-            "items":[
-                {
-                    "title": "Landing Page Development", 
-                    "text": "lorem ipsum", 
-                    "image": "/svg/Design collaboration.svg", 
-                    "link": "" 
-                }, 
-                {
-                    "title": "Online Branding", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/branding.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "Google Ads", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/ads.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "PPC", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                    "image": "/svg/undraw_Savings_dwkw.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "Social Media",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/Social dilemma.svg", 
-                    "link": ""
-                }, 
-                {
-                    "title": "SEO", 
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", 
-                    "image": "/svg/Code Version Control.svg"
-                }
-            ], 
-            "animation": {
-                "offset": 200
-            }
-            
-        },
+        },        
         {
             "id": "keywordtext",
             "link": "/#keywordtext", 
-            "text": "Info", 
-            "title": "Info", 
-            "type": "keywordtext",
-            "image": "/svg/Code Version Control.svg", 
-            "imagePosition": "right",
-            "content":{
-                "title": "hello"
-            }
-        },
-        {
-            "id": "about",
-            "link": "/#about", 
             "text": "About", 
             "title": "About", 
-            "type": "listwithimage", 
+            "type": "keywordtext",
+            "image": "/svg/Design collaboration.svg", 
+            "imagePosition": "right",
             "content":{
-                "title": "Odio sed id eos et laboriosam consequatur eos earum soluta.", 
-                "list":[
-                    "Sint aliquam consequatur ex ex labore.", 
-                    "Duis aute irure dolor in reprehenderit in voluptate velit.", 
-                    "Aspernatur consectetur omnis numquam quaerat.", 
-                    "Et vel ut quidem alias veritatis repudiandae ut fugit.", 
-                    "Fugit ut maxime incidunt accusantium totam repellendus eum error.", 
-                    "Ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                ], 
-                "image": "svg/undraw_mobile_marketing.svg"
+                "title": "Powerful Features...",
+                "text": "Built for demanding workflows, InDesign integrates smoothly with Adobe Photoshop, Illustrator, Acrobat, InCopy, and Dreamweaver software.   InDesign offers powerful features for creating richer, more complex documents and reliably outputs pages to multiple media."
             }
         }, 
         {
-            "id": "testimonials", 
-            "link": "/#testimonials", 
-            "text": "Testimonials", 
-            "type": "quotes", 
-            "content": {
-                "title": "Testimonials", 
-                "quotes":[
-                    {
-                        "name": "Carol", 
-                        "jobtitle": "CEO at DIN", 
-                        "image": "/img/testimonials/carol.png", 
-                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-                    }, 
-                    {
-                        "name": "Fred", 
-                        "jobtitle": "Co-founder at ArtSpace", 
-                        "image": "/img/testimonials/fred.JPEG", 
-                        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-                    }
-                ]
+            "id": "summary",
+            "link": "/#summary", 
+            "text": "Why Attend?", 
+            "title": "Why Attend?", 
+            "type": "summary",
+            "image": "", 
+            "imagePosition": "right",
+            "content":{
+                "title": "Why attend one of our Adobe InDesign courses?",
+                "text": "Attending our <a href=/courses>InDesign courses</a> allows participants to explore more creative possibilities and experience new levels of productivity using Adobe InDesign page layout software.  Our course attendees learn how - with its sophisticated design features and enhanced productivity tools for streamlining repetitive task - InDesign lets you work faster and better than ever."
             }
-        }
+        }        
     ] 
 }
