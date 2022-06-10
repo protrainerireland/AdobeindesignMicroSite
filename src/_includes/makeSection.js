@@ -210,9 +210,10 @@ module.exports = {
                         data-aos="fade-left" ${ animationDelay } ${animationOffset}
                         data-aos-anchor="#${section.id}"
                         >
-                        <p class="about-title">${ section.content.title }</p>
-                        <p>${ section.content.text }</p>
-                    
+                        <p class="about-title">${ section.content.title1 }</p>
+                        <p>${ section.content.text1 }</p>
+                        <p class="about-title">${ section.content.title2 }</p>
+                        <p>${ section.content.text2 }</p>
                         
                         </div>`;
                     if (section.image) {

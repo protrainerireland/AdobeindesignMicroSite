@@ -1,12 +1,12 @@
 {
-    "searchKeywords": ["Adobe InDesign"],
+    "searchKeywords": ["Adobe"],
     "searchLocations": ["Dublin", "Cork", "Limerick", "Ireland"],
     "homepageTitle": "Training Courses - Dublin Cork Limerick Ireland", 
     "organisation": {
-        "name": "AdobeInDesignTraining.ie" 
+        "name": "AdobeTraining.ie" 
     },
-    "url": "adobeindesigntraining.ie",
-    "logo": "/img/adobeindesignlogo.png",
+    "url": "adobetraining.ie",
+    "logo": "/img/adobelogos.png",
     "address": {
         "line1": "Building 6500E", 
         "line2": "Cork Airport Business Park", 
