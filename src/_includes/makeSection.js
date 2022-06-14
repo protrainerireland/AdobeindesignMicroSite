@@ -217,7 +217,7 @@ module.exports = {
                         
                         </div>`;
                     if (section.image) {
-                        html += `<div class="col-md-5" 
+                        html += `<div class="col-md-6" 
                                 data-aos="fade-right" ${ animationDelay }  ${animationOffset}
                                 data-aos-anchor="#${section.id}"
                                 >
